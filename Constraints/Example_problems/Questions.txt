@@ -1,0 +1,33 @@
+1. Create a class to generate random 4-digit numbers that are divisible by 11.
+2. Write a class with a constraint that generates random IP address segments (0–255).
+such that the first segment must be in the range 1 to 223.
+3. Write a class that generates 5 unique random integers between 1 and 20.
+4. Generate 3 random bytes such that the third byte is the XOR of the first two.
+5. Write a constraint for an array of 10 integers such that all elements are less than or equal to 50 and the sum of the array is less than 300.
+6. Create a class that generates a random date with a day between 1-31, a month between 1-12, and a year fixed at 2024. Ensure February has at most 29 days.
+7. Create a class to randomize a 3-digit number such that all digits are different.
+8. Generate a 6-character alphanumeric string using constraints.
+9. Create a class to generate random MAC addresses. The first octet must be even and not a multicast.
+10. Create a class that randomizes a variable temp such that:
+ If mode == "cold" → 0 ≤ temp ≤ 15
+ If mode == "hot" → 30 ≤ temp ≤ 45
+11. Create a constraint to randomize 3 variables a, b, c such that a < b < c and they are in the range 1 to 50.
+12. Write a constraint to ensure random time (hh:mm) is always a valid time in 24-hour format.
+13. Randomize a password string of 8 characters with at least one uppercase, one lowercase, and one digit.
+14. Create a class that generates valid IP address bytes (each from 0 to 255), and first byte ≠ 127.
+15. Generate a 4-digit PIN where the digits are not in sequential order (like 1234, 4567,etc.)
+16. Create a constraint such that a 4-bit number has exactly 2 ones.
+17. Randomize an array of 5 elements such that their max value is less than 80 and min value greater than 20.
+18. Randomize a 2D array [3][3] such that sum of each row is 15.
+19. Write a constraint such that the number has more 1’s than 0’s in a 5-bit variable.
+20. Generate an 8-bit variable where no two adjacent bits are 1.
+21. Randomize a number between 1 and 500 such that the sum of its digits is always even.
+22. Randomize a 4-digit number where the digits alternate between even and odd.
+23. Generate a number such that it is palindrome in decimal (e.g., 121, 1331).
+24. Create a constraint to generate a 5-bit number that’s Gray Code (only 1 bit changes between neighbors).
+25. Randomize a structure with nested constraints (e.g., student: name, age, marks, where marks > 70 if age < 20).
+26. Randomize an array of 6 where no 2 elements are the same and al are within [10:20].
+27. Generate a 2-digit number such that the sum of digits is a prime number.
+28. Generate a 6-character string containing only vowels.
+29. Randomize an array [5] such that it contains exactly two duplicates (e.g., [2,3,2,5,3]).
+30. Create a constraint such that an array of 4 integers are all odd and in ascending order.
